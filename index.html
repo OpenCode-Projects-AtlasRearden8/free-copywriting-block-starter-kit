@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free Copy-Editing Block Starter Kit — Asdale Dynamics, LLC</title>
+  <meta name="description" content="Free directory of copy-editing prompts, blank-outline templates, and revision checklists for stuck authors and journals. Static, offline, JSON-driven, no accounts. Published by Asdale Dynamics, LLC.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="mood-gentle">
+
+  <header class="site-head">
+    <h1>Free Copy-Editing Block Starter Kit</h1>
+    <p class="tagline" id="tagline">Small boosts for stuck authors and journals: 40 copy-editing prompts, blank-outline heavy templates, revision checklists, and a per-project mood switch. Loads from JSON, works offline, no accounts, ever.</p>
+  </header>
+
+  <main>
+    <section id="mood-section" aria-label="Project mood">
+      <h2>Choose a mood for this project</h2>
+      <p class="section-note">Picked mood and checklist ticks are saved in your browser only (localStorage). Nothing is uploaded; there are no accounts.</p>
+      <div id="mood-bar" role="group" aria-label="Mood choices"></div>
+    </section>
+
+    <section id="prompts-section">
+      <h2>40 Copy-Editing Blocking Prompts</h2>
+      <p class="section-note">Pick one prompt, do it, stop if you want. These are for the stuck moments, not a to-do list.</p>
+      <div id="prompts"></div>
+    </section>
+
+    <section id="templates-section">
+      <h2>Blank-Outline Templates</h2>
+      <p class="section-note">Outlines with heavy blanks: fill the blanks and the structure does the rest. Copy buttons give you a plain-text version.</p>
+      <div id="templates"></div>
+    </section>
+
+    <section id="checklists-section">
+      <h2>Revision Checklists</h2>
+      <p class="section-note">One pass, one job. Tick as you go; ticks persist locally.</p>
+      <div id="checklists"></div>
+    </section>
+
+    <section id="print-section">
+      <h2>Printer-Friendly Section</h2>
+      <p class="section-note">Use your browser's Print button (or Ctrl/Cmd+P). The <strong>[Print View]</strong> below prints the whole kit — all 40 prompts, every blank outline, and both checklists — in compact text.</p>
+      <pre id="print-view" aria-label="Full kit in printer-friendly text form"></pre>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <p id="footer-credit">Free starter kit published by Asdale Dynamics, LLC · MIT licensed · Works offline, no accounts</p>
+    <p>Siblings in the free-tools family: <em>write-sprint-timer-webapp</em> (timers) and <em>free-author-printables-pack</em> (marketing assets).</p>
+  </footer>
+
+  <script src="data/data.js"></script>
+  <script src="assets/site.js"></script>
+</body>
+</html>
